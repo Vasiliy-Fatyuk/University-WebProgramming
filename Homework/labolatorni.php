@@ -90,6 +90,7 @@
 			<div class="col-sm-12">
 				<h2 class="text-center mg-md">
 					Web-програмування
+                    <img src="../img/Smiley-icon.png" alt="Smile">
 				</h2>
 			</div>
 		</div>
@@ -123,22 +124,22 @@
 								<a href="#" class="btn dropdown-toggle   btn-d   btn-lg" data-toggle="dropdown" aria-expanded="false">Завдання<span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
 									<li>
-										<a href="task_web_php/task_1/task_1_1.php" class="a-btn a-block none">Завдання 1</a>
+										<a href="Web/task_web_php/task_1/task_1_1.php" class="a-btn a-block none">Завдання 1</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_1/task_1_2.php" class="a-btn a-block">Завдання 2</a>
+										<a href="Web/task_web_php/task_1/task_1_2.php" class="a-btn a-block">Завдання 2</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_1/task_1_3.php" class="a-btn a-block">Завдання 3</a>
+										<a href="Web/task_web_php/task_1/task_1_3.php" class="a-btn a-block">Завдання 3</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_1/task_1_4.php" class="a-btn a-block">Завдання 4</a>
+										<a href="Web/task_web_php/task_1/task_1_4.php" class="a-btn a-block">Завдання 4</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_1/task_1_5.php" class="a-btn a-block">Завдання 5</a>
+										<a href="Web/task_web_php/task_1/task_1_5.php" class="a-btn a-block">Завдання 5</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_1/task_1_6.php" class="a-btn a-block">Завдання 6</a>
+										<a href="Web/task_web_php/task_1/task_1_6.php" class="a-btn a-block">Завдання 6</a>
 									</li>
                                     <li>
                                         <a href="Document/Laba_1.docx" class="a-btn a-block"><img src="../img/download.png" alt="Download">Download .doc</a>
@@ -171,19 +172,19 @@
 								<a href="#" class="btn dropdown-toggle   btn-d   btn-lg" data-toggle="dropdown" aria-expanded="false">Завдання<span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
 									<li>
-										<a href="task_web_php/task_2/task_2_1.php" class="a-btn a-block">Завдання 1</a>
+										<a href="Web/task_web_php/task_2/task_2_1.php" class="a-btn a-block">Завдання 1</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_2/task_2_2.php" class="a-btn a-block">Завдання 2</a>
+										<a href="Web/task_web_php/task_2/task_2_2.php" class="a-btn a-block">Завдання 2</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_2/task_2_3.php" class="a-btn a-block">Завдання 3</a>
+										<a href="Web/task_web_php/task_2/task_2_3.php" class="a-btn a-block">Завдання 3</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_2/task_2_4.php" class="a-btn a-block">Завдання 4</a>
+										<a href="Web/task_web_php/task_2/task_2_4.php" class="a-btn a-block">Завдання 4</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_2/task_2_5.php" class="a-btn a-block">Завдання 5</a>
+										<a href="Web/task_web_php/task_2/task_2_5.php" class="a-btn a-block">Завдання 5</a>
 									</li>
                                     <li>
                                         <a href="Document/Laba_2.docx" class="a-btn a-block"><img src="../img/download.png" alt="Download">Download .doc</a>
@@ -216,22 +217,22 @@
 								<a href="#" class="btn dropdown-toggle   btn-d   btn-lg" data-toggle="dropdown" aria-expanded="false">Завдання<span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
 									<li>
-										<a href="task_web_php/task_3/task_3_1.php" class="a-btn a-block">Завдання 1</a>
+										<a href="Web/task_web_php/task_3/task_3_1.php" class="a-btn a-block">Завдання 1</a>
 									</li>
 									<li>
-										<a href="task_web_php/task_3/task_3_2.php" class="a-btn a-block">Завдання 2</a>
+										<a href="Web/task_web_php/task_3/task_3_2.php" class="a-btn a-block">Завдання 2</a>
 									</li>
                                     <li>
-                                        <a href="task_web_php/task_3/task_3_3.php" class="a-btn a-block">Завдання 3</a>
+                                        <a href="Web/task_web_php/task_3/task_3_3.php" class="a-btn a-block">Завдання 3</a>
                                     </li>
                                     <li>
-                                        <a href="task_web_php/task_3/task_3_4.php" class="a-btn a-block">Завдання 4</a>
+                                        <a href="Web/task_web_php/task_3/task_3_4.php" class="a-btn a-block">Завдання 4</a>
                                     </li>
                                     <li>
-                                        <a href="task_web_php/task_3/task_3_5.php" class="a-btn a-block">Завдання 5</a>
+                                        <a href="Web/task_web_php/task_3/task_3_5.php" class="a-btn a-block">Завдання 5</a>
                                     </li>
                                     <li>
-                                        <a href="task_web_php/task_3/task_3_6.php" class="a-btn a-block">Завдання 6</a>
+                                        <a href="Web/task_web_php/task_3/task_3_6.php" class="a-btn a-block">Завдання 6</a>
                                     </li>
                                     <li>
                                         <a href="Document/Laba_3.docx" class="a-btn a-block"><img src="../img/download.png" alt="Download">Download .doc</a>
@@ -298,13 +299,13 @@
                                 <a href="#" class="btn dropdown-toggle   btn-d   btn-lg" data-toggle="dropdown" aria-expanded="false">Завдання<span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
-                                        <a href="task_web_php/task_5/task_5_1.php" class="a-btn a-block">Завдання 1</a>
+                                        <a href="Web/task_web_php/task_5/task_5_1.php" class="a-btn a-block">Завдання 1</a>
                                     </li>
                                     <li>
-                                        <a href="task_web_js/task_5/task_5_2.php" class="a-btn a-block">Завдання 2</a>
+                                        <a href="Web/task_web_js/task_5/task_5_2.php" class="a-btn a-block">Завдання 2</a>
                                     </li>
                                     <li>
-                                        <a href="task_web_php/task_5/task_5_3.php" class="a-btn a-block">Завдання 3</a>
+                                        <a href="Web/task_web_php/task_5/task_5_3.php" class="a-btn a-block">Завдання 3</a>
                                     </li>
                                     <li>
                                         <a href="Document/Laba_5.docx" class="a-btn a-block"><img src="../img/download.png" alt="Download">Download .doc</a>
@@ -359,6 +360,7 @@
                 <div class="col-sm-12">
                     <h2 class="text-center mg-md">
                         Apiko
+                        <img src="../img/apiko.png" alt="Apiko">
                     </h2>
                 </div>
             </div>
@@ -392,16 +394,40 @@
                                     <a href="#" class="btn dropdown-toggle   btn-d   btn-lg" data-toggle="dropdown" aria-expanded="false">Завдання<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li>
-                                            <a href="#" class="a-btn a-block none">Завдання 1</a>
+                                            <a href="Apiko/task_apiko_php/task_1/task_1_1.php" class="a-btn a-block">Завдання 1</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="a-btn a-block">Завдання 2</a>
+                                            <a href="#" class="a-btn a-block"><img src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h2 class="mg-clear text-center">
+                                Лабораторна робота №2
+                            </h2>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-unstyled list-sp-md">
+                                <li>
+                                    <h4 class="text-center mg-md">
+                                        Варіант №n
+                                    </h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="text-center">
+                                <div class="btn-group btn-dropdown">
+                                    <a href="#" class="btn dropdown-toggle   btn-d   btn-lg" data-toggle="dropdown" aria-expanded="false">Завдання<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
                                         <li>
-                                            <a href="#" class="a-btn a-block">Завдання 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="task_apiko_php/task_1/task_1_4.php" class="a-btn a-block">Завдання 4</a>
+                                            <a href="Apiko/task_apiko_php/task_2/task_2_1.php" class="a-btn a-block none">Завдання 1</a>
                                         </li>
                                         <li>
                                             <a href="#" class="a-btn a-block"><img src="../img/download.png" alt="Download">Download .doc</a>
@@ -415,6 +441,7 @@
             </div>
         </div>
     </div>
+
     <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
