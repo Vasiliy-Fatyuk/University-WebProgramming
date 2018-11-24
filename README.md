@@ -1,5 +1,3 @@
-[Here](https://Vasiliy-Fatyuk.github.io/University-WebProgramming) is the link for Demo(Github Pages)
-
 # My Personal WebSite
 
 
