@@ -8,6 +8,7 @@
             color: black;
             font-size: 28px;
         }
+
         p {
             direction: ltr;
         }
@@ -16,16 +17,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Test task</title>
-    <link rel="stylesheet" type="text/css" href="../test/css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../test/css/main.css" media="screen"/>
     <!-- Bootstrap -->
     <link href="../test/css/bootstrap.css" rel="stylesheet">
     <link href="../test/css/font-awesome.css" rel="stylesheet">
     <link href="../test/css/mystyle.css" rel="stylesheet">
     <link href="../test/js/bootstrap.js" rel="stylesheet">
-
-
-
-
 
 
     <meta charset="utf-8">
@@ -36,8 +33,10 @@
     <link rel="stylesheet" type="text/css" href="../../../../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
     <link rel="stylesheet" type="text/css" href="../../../../css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Domine&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Domine&amp;subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
 
     <script src="../../../../js/jquery-2.1.0.js"></script>
     <script src="../../../../js/bootstrap.js"></script>
@@ -63,9 +62,12 @@
         <div class="container bloc-sm">
             <nav class="navbar nav-center row">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="../../../../index.php"><img src="../../../../img/icons8-apple-24.png" alt="logo" />Web</a>
-                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    <a class="navbar-brand" href="../../../../index.php"><img src="../../../../img/icons8-apple-24.png"
+                                                                              alt="logo"/>Web</a>
+                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                                class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -98,34 +100,36 @@
                 </h2>
                 <!---->
                 <style>
-                    #password{
+                    #password {
                         display: block;
                         margin-right: auto;
                         margin-left: auto;
                         border-radius: 10px;
                         background-color: #f6f6f6;
                     }
-                    #pid{
+
+                    #pid {
                         text-align: center;
                     }
-                   a{
-                       display: block;
-                       text-align: -webkit-center;
-                   }
+
+                    a {
+                        display: block;
+                        text-align: -webkit-center;
+                    }
 
                 </style>
                 <h4>
 
-                        <input type="password" name="password" id="password" size="60"/>
+                    <input type="password" name="password" id="password" size="60"/>
                     <p id="pid">Кількість символів:</p>
-                        <a href="#" class="generatePassword">10</a>
+                    <a href="#" class="generatePassword">10</a>
                     <a href="#" class="generatePassword15">15</a>
                     <a href="#" class="generatePassword30">30</a>
                     <a href="#" class="generatePassword50">50</a>
                     <a href="#" class="generatePassword80">80</a>
                     <a href="#" class="generatePassword100">100</a>
-                        <a href="#" class="generatePassword150">150</a>
-                        <a href="#" class="generatePassword200">200</a>
+                    <a href="#" class="generatePassword150">150</a>
+                    <a href="#" class="generatePassword200">200</a>
                     <a href="#" class="generatePassword300">300</a>
 
                 </h4>
@@ -147,7 +151,8 @@
                                 Завдання
                             </h3>
                             <p class=" text-left">
-                                Створити метод, який генерує рандомну строку пароль. Враховуючи можливість задати довжину.
+                                Створити метод, який генерує рандомну строку пароль. Враховуючи можливість задати
+                                довжину.
 
                             </p>
                         </div>
@@ -168,8 +173,8 @@
                                 skript <br><br>
                                 $(document).ready(function() {<br>
                                 function str_rand() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 10; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -178,8 +183,8 @@
                                 return result;<br>
                                 }<br>
                                 function str_rand15() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 15; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -188,8 +193,8 @@
                                 return result;<br>
                                 }<br>
                                 function str_rand30() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 30; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -198,8 +203,8 @@
                                 return result;<br>
                                 }<br>
                                 function str_rand50() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 50; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -208,8 +213,8 @@
                                 return result;<br>
                                 }<br>
                                 function str_rand80() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 80; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -218,8 +223,8 @@
                                 return result;<br>
                                 }<br>
                                 function str_rand100() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 100; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -228,8 +233,8 @@
                                 return result;<br>
                                 }<br>
                                 function str_rand150() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 150; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -238,8 +243,8 @@
                                 return result;<br>
                                 }<br>
                                 function str_rand200() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 200; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -248,8 +253,8 @@
                                 return result;<br>
                                 }<br>
                                 function str_rand300() {<br>
-                                var result       = '';<br>
-                                var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
+                                var result = '';<br>
+                                var words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';<br>
                                 var max_position = words.length - 1;<br>
                                 for( i = 0; i < 300; ++i ) {<br>
                                 position = Math.floor ( Math.random() * max_position );<br>
@@ -299,17 +304,28 @@
                                 skript<br><br>
                                 <br><br>
                                 html<br><br>
-                                <іnрut type="password" name="password" id="password" size="60"/><br>
-                            <р id="pid">Кількість символів:</р><br>
-                            <а href="#" class="generatePassword">10</а><br>
-                            <а href="#" class="generatePassword15">15</а><br>
-                            <а href="#" class="generatePassword30">30</а><br>
-                            <а href="#" class="generatePassword50">50</а><br>
-                            <а href="#" class="generatePassword80">80</а><br>
-                            <а href="#" class="generatePassword100">100</а><br>
-                            <а href="#" class="generatePassword150">150</а><br>
-                            <а href="#" class="generatePassword200">200</а><br>
-                            <а href="#" class="generatePassword300">300</а><br>
+                                <іnрut type="password" name="password" id="password" size="60"/>
+                                <br>
+                                <р id="pid">Кількість символів:</р>
+                                <br>
+                                <а href="#" class="generatePassword">10</а>
+                                <br>
+                                <а href="#" class="generatePassword15">15</а>
+                                <br>
+                                <а href="#" class="generatePassword30">30</а>
+                                <br>
+                                <а href="#" class="generatePassword50">50</а>
+                                <br>
+                                <а href="#" class="generatePassword80">80</а>
+                                <br>
+                                <а href="#" class="generatePassword100">100</а>
+                                <br>
+                                <а href="#" class="generatePassword150">150</а>
+                                <br>
+                                <а href="#" class="generatePassword200">200</а>
+                                <br>
+                                <а href="#" class="generatePassword300">300</а>
+                                <br>
                                 <br><br>
 
                                 html
@@ -323,7 +339,8 @@
         <!-- Bloc Group END -->
 
         <!-- ScrollToTop Button -->
-        <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+        <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+                    class="fa fa-chevron-up"></span></a>
         <!-- ScrollToTop Button END-->
 
 
@@ -333,22 +350,26 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social-lg" href="../../../../index.php"><span class="fa fa-twitter icon-lg"></span></a>
+                            <a class="social-lg" href="../../../../index.php"><span
+                                        class="fa fa-twitter icon-lg"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social-lg" href="../../../../index.php"><span class="fa fa-facebook icon-lg"></span></a>
+                            <a class="social-lg" href="../../../../index.php"><span
+                                        class="fa fa-facebook icon-lg"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social-lg" href="../../../../index.php"><span class="fa fa-dribbble icon-lg"></span></a>
+                            <a class="social-lg" href="../../../../index.php"><span
+                                        class="fa fa-dribbble icon-lg"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social-lg" href="../../../../index.php"><span class="fa fa-instagram icon-lg"></span></a>
+                            <a class="social-lg" href="../../../../index.php"><span
+                                        class="fa fa-instagram icon-lg"></span></a>
                         </div>
                     </div>
                 </div>
@@ -358,7 +379,6 @@
 
     </div>
     <!-- Main container END -->
-
 
 
     <!-- Preloader -->

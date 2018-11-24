@@ -1,20 +1,24 @@
 <?php
 
-class User {
+class User
+{
 
     private $name = "";
     private $surname = "";
     private $age = "";
     private $email = "";
-    function __construct($name,$surname, $age, $email){
-        $this -> name = $name;
-        $this -> age = $age;
-        $this -> email = $email;
-        $this -> surname =$surname;
+
+    function __construct($name, $surname, $age, $email)
+    {
+        $this->name = $name;
+        $this->age = $age;
+        $this->email = $email;
+        $this->surname = $surname;
     }
 
-    public function parametrValidation() {
-        if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['name'])) {
+    public function parametrValidation()
+    {
+        if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['name'])) {
             $errors = array();
             if (strlen($this->name) == 0) array_push($errors, "Ім'я не введено");
             else if (strlen($this->surname) == 0) array_push($errors, "Фамілію не введено");
@@ -24,17 +28,25 @@ class User {
         }
     }
 
-    public function renderInfoAboutUser() {
-        echo "Користувач:";echo $this->name;echo " ";echo $this->surname; echo "<div></div>";
-        echo "Вік: ";echo $this->age;
+    public function renderInfoAboutUser()
+    {
+        echo "Користувач:";
+        echo $this->name;
+        echo " ";
+        echo $this->surname;
         echo "<div></div>";
-        echo "Email:";echo $this->email; echo "</div>";
+        echo "Вік: ";
+        echo $this->age;
+        echo "<div></div>";
+        echo "Email:";
+        echo $this->email;
+        echo "</div>";
 
     }
 
 }
-?>
 
+?>
 
 
 <!doctype html>
@@ -44,6 +56,7 @@ class User {
         h3 {
             direction: ltr;
         }
+
         p {
             direction: ltr;
         }
@@ -57,8 +70,10 @@ class User {
     <link rel="stylesheet" type="text/css" href="../../../../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
     <link rel="stylesheet" type="text/css" href="../../../../css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Domine&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Domine&amp;subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
 
     <script src="../../../../js/jquery-2.1.0.js"></script>
     <script src="../../../../js/bootstrap.js"></script>
@@ -67,7 +82,6 @@ class User {
     <script src="./js/formHandler.js"></script>
     <script src="../../../../js/lazysizes.min.js" defer></script>
     <title>Task_3_3</title>
-
 
 
     <!-- Google Analytics -->
@@ -84,9 +98,12 @@ class User {
         <div class="container bloc-sm">
             <nav class="navbar nav-center row">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="../../../../index.php"><img src="../../../../img/icons8-apple-24.png" alt="logo" />Web</a>
-                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    <a class="navbar-brand" href="../../../../index.php"><img src="../../../../img/icons8-apple-24.png"
+                                                                              alt="logo"/>Web</a>
+                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                                class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -121,7 +138,7 @@ class User {
 
                         <?php
                         $result_valid = false;
-                        $user = new User($_POST['name'],$_POST['surname'], $_POST['age'], $_POST['email']);
+                        $user = new User($_POST['name'], $_POST['surname'], $_POST['age'], $_POST['email']);
                         if (count($user->parametrValidation()) == 0) {
                             $result_valid = true;
                         }
@@ -129,10 +146,14 @@ class User {
 
 
                         <form action="task_3_3.php" method="post">
-                            <input type="text" placeholder="Введіть ім'я" name="name" value="<?php echo $_POST['name']; ?>">
-                            <input type="text" placeholder="Введіть фамілію" name="surname" value="<?php echo $_POST['surname']; ?>">
-                            <input type="text" placeholder="Введіть вік" name="age" value="<?php echo $_POST['age']; ?>">
-                            <input type="text" placeholder="Введіть email" name="email" value="<?php echo $_POST['email']; ?>">
+                            <input type="text" placeholder="Введіть ім'я" name="name"
+                                   value="<?php echo $_POST['name']; ?>">
+                            <input type="text" placeholder="Введіть фамілію" name="surname"
+                                   value="<?php echo $_POST['surname']; ?>">
+                            <input type="text" placeholder="Введіть вік" name="age"
+                                   value="<?php echo $_POST['age']; ?>">
+                            <input type="text" placeholder="Введіть email" name="email"
+                                   value="<?php echo $_POST['email']; ?>">
                             <button type="submit">Готово</button>
                         </form>
                         <div class="result">
@@ -142,7 +163,7 @@ class User {
 
                         <div class="error">
                             <?php
-                            for ($i=0; $i < count($user->parametrValidation()); $i++) {
+                            for ($i = 0; $i < count($user->parametrValidation()); $i++) {
                                 echo $user->parametrValidation()[$i];
                                 break;
                             }
@@ -171,7 +192,9 @@ class User {
                         <p class=" text-left">
                             Створіть клас користувача, з полями: прізвище, ім'я, вік і e-mail.<br>
                             У HTML формі користувач вводить в чотири різні поля: прізвище, ім'я, вік і e-mail.<br>
-                            Після натискання клавіші кнопки ГОТОВО створюється об'єкт користувача, з методом, який вносить ці дані в поле об'єкту і далі виводить їх використовуючи другий метод класу користувача.<br>
+                            Після натискання клавіші кнопки ГОТОВО створюється об'єкт користувача, з методом, який
+                            вносить ці дані в поле об'єкту і далі виводить їх використовуючи другий метод класу
+                            користувача.<br>
                             У формі передбачити перевірку, що всі поля перед відправленням не порожні.
                             <br>
                         </p>
@@ -190,7 +213,32 @@ class User {
                             Результат мовою PHP+HTML
                         </h3>
                         <p class=" text-left">
-                            &lt;?php<br><br>class User {<br><br> private $name = "";<br> private $surname = "";<br> private $age = "";<br> private $email = "";<br> function __construct($name,$surname, $age, $email){<br> $this -&gt; name = $name;<br> $this -&gt; age = $age;<br> $this -&gt; email = $email;<br> $this -&gt; surname =$surname;<br> }<br><br> public function parametrValidation() {<br> if($_SERVER['REQUEST_METHOD'] == "POST" &amp;&amp; isset($_POST['name'])) {<br> $errors = array();<br> if (strlen($this-&gt;name) == 0) array_push($errors, "Ім'я не введено");<br> else if (strlen($this-&gt;surname) == 0) array_push($errors, "Фамілію не введено");<br> else if (strlen($this-&gt;age) == 0) array_push($errors, "Вік не введено");<br> else if (strlen($this-&gt;email) == 0) array_push($errors, "Email не введено");<br> return $errors;<br> }<br> }<br><br> public function renderInfoAboutUser() {<br> echo "Користувач:";echo $this-&gt;name;echo " ";echo $this-&gt;surname; echo "&lt;div&gt;&lt;/div&gt;";<br> echo "Вік: ";echo $this-&gt;age;<br> echo "&lt;div&gt;&lt;/div&gt;";<br> echo "Email:";echo $this-&gt;email; echo "&lt;/div&gt;";<br><br> }<br><br>}<br>?&gt;&nbsp;<br> <br> <br>&lt;?php<br> $result_valid = false;<br> $user = new User($_POST['name'],$_POST['surname'], $_POST['age'], $_POST['email']);<br> if (count($user-&gt;parametrValidation()) == 0) {<br> $result_valid = true;<br> }<br> ?&gt;<br><br><br> &lt;form action="task_3_3.php" method="post"&gt;<br> &lt;input type="text" placeholder="Введіть ім'я" name="name" value="&lt;?php echo $_POST['name']; ?&gt;"&gt;<br> &lt;input type="text" placeholder="Введіть фамілію" name="surname" value="&lt;?php echo $_POST['surname']; ?&gt;"&gt;<br> &lt;input type="text" placeholder="Введіть вік" name="age" value="&lt;?php echo $_POST['age']; ?&gt;"&gt;<br> &lt;input type="text" placeholder="Введіть email" name="email" value="&lt;?php echo $_POST['email']; ?&gt;"&gt;<br> &lt;button type="submit"&gt;Готово&lt;/button&gt;<br> &lt;/form&gt;<br> &lt;div class="result"&gt;<br><br> &lt;?php if ($result_valid) $user-&gt;renderInfoAboutUser(); ?&gt;<br> &lt;/div&gt;<br><br> &lt;div class="error"&gt;<br> &lt;?php<br> for ($i=0; $i &lt; count($user-&gt;parametrValidation()); $i++) {<br> echo $user-&gt;parametrValidation()[$i];<br> break;<br> }<br> ?&gt;<br> &lt;/div&gt;<br>
+                            &lt;?php<br><br>class User {<br><br> private $name = "";<br> private $surname = "";<br>
+                            private $age = "";<br> private $email = "";<br> function __construct($name,$surname, $age,
+                            $email){<br> $this -&gt; name = $name;<br> $this -&gt; age = $age;<br> $this -&gt; email =
+                            $email;<br> $this -&gt; surname =$surname;<br> }<br><br> public function
+                            parametrValidation() {<br> if($_SERVER['REQUEST_METHOD'] == "POST" &amp;&amp;
+                            isset($_POST['name'])) {<br> $errors = array();<br> if (strlen($this-&gt;name) == 0)
+                            array_push($errors, "Ім'я не введено");<br> else if (strlen($this-&gt;surname) == 0)
+                            array_push($errors, "Фамілію не введено");<br> else if (strlen($this-&gt;age) == 0)
+                            array_push($errors, "Вік не введено");<br> else if (strlen($this-&gt;email) == 0)
+                            array_push($errors, "Email не введено");<br> return $errors;<br> }<br> }<br><br> public
+                            function renderInfoAboutUser() {<br> echo "Користувач:";echo $this-&gt;name;echo " ";echo
+                            $this-&gt;surname; echo "&lt;div&gt;&lt;/div&gt;";<br> echo "Вік: ";echo $this-&gt;age;<br>
+                            echo "&lt;div&gt;&lt;/div&gt;";<br> echo "Email:";echo $this-&gt;email; echo "&lt;/div&gt;";<br><br>
+                            }<br><br>}<br>?&gt;&nbsp;<br> <br> <br>&lt;?php<br> $result_valid = false;<br> $user = new
+                            User($_POST['name'],$_POST['surname'], $_POST['age'], $_POST['email']);<br> if (count($user-&gt;parametrValidation())
+                            == 0) {<br> $result_valid = true;<br> }<br> ?&gt;<br><br><br> &lt;form action="task_3_3.php"
+                            method="post"&gt;<br> &lt;input type="text" placeholder="Введіть ім'я" name="name" value="&lt;?php
+                            echo $_POST['name']; ?&gt;"&gt;<br> &lt;input type="text" placeholder="Введіть фамілію"
+                            name="surname" value="&lt;?php echo $_POST['surname']; ?&gt;"&gt;<br> &lt;input type="text"
+                            placeholder="Введіть вік" name="age" value="&lt;?php echo $_POST['age']; ?&gt;"&gt;<br> &lt;input
+                            type="text" placeholder="Введіть email" name="email" value="&lt;?php echo $_POST['email']; ?&gt;"&gt;<br>
+                            &lt;button type="submit"&gt;Готово&lt;/button&gt;<br> &lt;/form&gt;<br> &lt;div
+                            class="result"&gt;<br><br> &lt;?php if ($result_valid) $user-&gt;renderInfoAboutUser(); ?&gt;<br>
+                            &lt;/div&gt;<br><br> &lt;div class="error"&gt;<br> &lt;?php<br> for ($i=0; $i &lt;
+                            count($user-&gt;parametrValidation()); $i++) {<br> echo
+                            $user-&gt;parametrValidation()[$i];<br> break;<br> }<br> ?&gt;<br> &lt;/div&gt;<br>
                         </p>
                     </div>
                 </div>
@@ -201,7 +249,8 @@ class User {
     <!-- Bloc Group END -->
 
     <!-- ScrollToTop Button -->
-    <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+    <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+                class="fa fa-chevron-up"></span></a>
     <!-- ScrollToTop Button END-->
 
 
@@ -211,17 +260,20 @@ class User {
             <div class="row">
                 <div class="col-sm-3">
                     <div class="text-center">
-                        <a class="social-lg" href="../../../../index.php"><span class="fa fa-twitter icon-lg"></span></a>
+                        <a class="social-lg" href="../../../../index.php"><span
+                                    class="fa fa-twitter icon-lg"></span></a>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="text-center">
-                        <a class="social-lg" href="../../../../index.php"><span class="fa fa-facebook icon-lg"></span></a>
+                        <a class="social-lg" href="../../../../index.php"><span
+                                    class="fa fa-facebook icon-lg"></span></a>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="text-center">
-                        <a class="social-lg" href="../../../../index.php"><span class="fa fa-dribbble icon-lg"></span></a>
+                        <a class="social-lg" href="../../../../index.php"><span
+                                    class="fa fa-dribbble icon-lg"></span></a>
                     </div>
                 </div>
                 <div class="col-sm-3">
@@ -236,7 +288,6 @@ class User {
 
 </div>
 <!-- Main container END -->
-
 
 
 <!-- Preloader -->

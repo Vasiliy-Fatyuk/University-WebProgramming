@@ -1,8 +1,8 @@
 var list = document.querySelector('ul');
 list.addEventListener('click', function (ev) {
-    if(ev.target.tagName === "LI") {
+    if (ev.target.tagName === "LI") {
         ev.target.classList.toggle('checked');
-    } else if(ev.target.tagName === "SPAN") {
+    } else if (ev.target.tagName === "SPAN") {
         var div = ev.target.parentNode;
         div.remove();
     }
@@ -13,7 +13,7 @@ function newElement() {
     var inputValue = document.getElementById('toDoEl').value;
     var t = document.createTextNode(inputValue);
     li.appendChild(t);
-    if(inputValue == "") {
+    if (inputValue == "") {
         alert("Дії свої повтори, на цей раз не загуби");
     } else {
         document.getElementById('list').appendChild(li);

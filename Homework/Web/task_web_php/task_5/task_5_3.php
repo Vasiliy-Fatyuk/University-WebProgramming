@@ -8,6 +8,7 @@
             color: black;
             font-size: 28px;
         }
+
         p {
             direction: ltr;
         }
@@ -16,16 +17,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Test task</title>
-    <link rel="stylesheet" type="text/css" href="../test/css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../test/css/main.css" media="screen"/>
     <!-- Bootstrap -->
     <link href="../test/css/bootstrap.css" rel="stylesheet">
     <link href="../test/css/font-awesome.css" rel="stylesheet">
     <link href="../test/css/mystyle.css" rel="stylesheet">
     <link href="../test/js/bootstrap.js" rel="stylesheet">
-
-
-
-
 
 
     <meta charset="utf-8">
@@ -36,8 +33,10 @@
     <link rel="stylesheet" type="text/css" href="../../../../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
     <link rel="stylesheet" type="text/css" href="../../../../css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Domine&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Domine&amp;subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
 
     <script src="../../../../js/jquery-2.1.0.js"></script>
     <script src="../../../../js/bootstrap.js"></script>
@@ -61,9 +60,12 @@
         <div class="container bloc-sm">
             <nav class="navbar nav-center row">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="../../../../index.php"><img src="../../../../img/icons8-apple-24.png" alt="logo" />Web</a>
-                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    <a class="navbar-brand" href="../../../../index.php"><img src="../../../../img/icons8-apple-24.png"
+                                                                              alt="logo"/>Web</a>
+                    <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-1">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                                class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -100,31 +102,38 @@
                         margin-top: 10px;
                         padding: 8px 10px;
                     }
+
                     #gallery #main-photo {
                         display: flex;
                         justify-content: center;
                     }
-                    #gallery #main-photo img{
+
+                    #gallery #main-photo img {
                         height: 400px;
                         width: 300px;
                     }
+
                     #gallery #photo-changes {
                         margin-top: 40px;
                         display: grid;
                         grid-template-columns: 1fr 1fr 1fr 1fr;
                         grid-column-gap: 20px;
                     }
+
                     #gallery #photo-changes img {
                         height: 120px;
                         width: 100px;
                     }
+
                     #gallery #photo-changes img:hover {
                         cursor: pointer;
                     }
-                    h4{
+
+                    h4 {
                         display: grid;
 
                     }
+
                     .title {
                         color: brown;
                         font-size: 48px;
@@ -154,9 +163,12 @@
                                 Завдання
                             </h3>
                             <p class=" text-left">
-                                За допомогою прототипного спадкування, створіть розширення для всіх строкових об'єктів,<br>
-                                яке дозволить виводити рядок, уклавши її в будь-який HTML-елемент. Наприклад, є змінна str, <br>
-                                що містить рядок "Привіт світ!". Звернувшись до розширення str.addToElement ("div", "red"),<br>
+                                За допомогою прототипного спадкування, створіть розширення для всіх строкових
+                                об'єктів,<br>
+                                яке дозволить виводити рядок, уклавши її в будь-який HTML-елемент. Наприклад, є змінна
+                                str, <br>
+                                що містить рядок "Привіт світ!". Звернувшись до розширення str.addToElement ("div",
+                                "red"),<br>
                                 ми повинні отримати фрагмент
 
                             </p>
@@ -186,7 +198,7 @@
 
                             function renderHTML(HTML) {<br>
                             document.getElementById('wrapp').innerHTML = HTML;<br>
-                            }    <br>
+                            } <br>
                             skript<br><br>
                             </p>
                         </div>
@@ -198,7 +210,8 @@
         <!-- Bloc Group END -->
 
         <!-- ScrollToTop Button -->
-        <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+        <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+                    class="fa fa-chevron-up"></span></a>
         <!-- ScrollToTop Button END-->
 
 
@@ -208,22 +221,26 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social-lg" href="../../../../index.php"><span class="fa fa-twitter icon-lg"></span></a>
+                            <a class="social-lg" href="../../../../index.php"><span
+                                        class="fa fa-twitter icon-lg"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social-lg" href="../../../../index.php"><span class="fa fa-facebook icon-lg"></span></a>
+                            <a class="social-lg" href="../../../../index.php"><span
+                                        class="fa fa-facebook icon-lg"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social-lg" href="../../../../index.php"><span class="fa fa-dribbble icon-lg"></span></a>
+                            <a class="social-lg" href="../../../../index.php"><span
+                                        class="fa fa-dribbble icon-lg"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social-lg" href="../../../../index.php"><span class="fa fa-instagram icon-lg"></span></a>
+                            <a class="social-lg" href="../../../../index.php"><span
+                                        class="fa fa-instagram icon-lg"></span></a>
                         </div>
                     </div>
                 </div>
@@ -233,7 +250,6 @@
 
     </div>
     <!-- Main container END -->
-
 
 
     <!-- Preloader -->
