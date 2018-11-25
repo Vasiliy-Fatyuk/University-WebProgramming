@@ -358,14 +358,14 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h2 class="mg-clear text-center">
-                                Лабораторна робота №6
+                                <br> КПІЗ
                             </h2>
                         </div>
                         <div class="panel-body">
                             <ul class="list-unstyled list-sp-md">
                                 <li>
                                     <h4 class="text-center mg-md">
-                                        Варіант №28
+                                        Варіант №28^1
                                     </h4>
                                 </li>
                             </ul>
@@ -376,9 +376,6 @@
                                     <a href="#" class="btn dropdown-toggle   btn-d   btn-lg" data-toggle="dropdown"
                                        aria-expanded="false">Завдання<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <li>
-                                            <a href="#" class="a-btn a-block">Завдання 1</a>
-                                        </li>
                                         <li>
                                             <a href="#" class="a-btn a-block"><img src="../img/download.png"
                                                                                    alt="Download">Download .doc</a>
