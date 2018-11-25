@@ -161,7 +161,7 @@
                                 class="fa fa-dribbble icon-sm"></span></a>
                 </div>
                 <div class="col-sm-2">
-                    <img src="img/lazyload-ph.png" data-src="img/Снимок%20экрана%202018-09-26%20в%2017.49.28.png"
+                    <img src="img/lazyload-ph.png" data-src="img/doog.png"
                          class="img-circle center-block blocs-team-avatar lazyload" width="109" height="109"/>
                 </div>
                 <div class="col-sm-4">
