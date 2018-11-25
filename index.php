@@ -51,7 +51,7 @@
                                                                   class="lazyload"/>Web</a>
                     <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-1">
-                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span> <span
                                 class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                 </div>
@@ -67,14 +67,28 @@
                 </div>
             </nav>
         </div>
+        <style>
+            h3 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            .row2 img {
+                border: 2px solid white;
+            }
+        </style>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
+                    <div class="row2">
+                        <img src="img/lazyload-ph.png" data-src="img/IMG_2139.JPG"
+                             class="img-circle center-block blocs-team-avatar lazyload" width="109" height="109"/>
+                    </div>
                     <h1 class="text-center hero-bloc-text ">
-                        Web-програмування
+                        Hi, I`m Vasiliy Fatyuk
                     </h1>
+
                     <h3 class="text-center mg-lg hero-bloc-text-sub">
-                        Лабораторні роботи
+                        I`M WEB DEVELOPER
                     </h3>
                 </div>
             </div>
@@ -185,6 +199,18 @@
             </div>
         </div>
     </div>
+    <!-- bloc-4 END -->
+
+    <!-- bloc-4 -->
+
+                    <h3 class="statement-bloc-text">
+                        Ternopil National Economic University <br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10352.789596485743!2d25.59011635165142!3d49.55629844970971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4784bb5f571674b!2z0KTQmtCG0KI!5e0!3m2!1sru!2sua!4v1543142186673" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </h3>
+                    <p class="text-center">
+                        <strong>TNEU FKIT</strong>
+                    </p>
+
     <!-- bloc-4 END -->
 
     <!-- ScrollToTop Button -->
