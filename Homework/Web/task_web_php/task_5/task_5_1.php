@@ -16,7 +16,7 @@
     </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Test task</title>
+    <title>Task_5_1</title>
     <link rel="stylesheet" type="text/css" href="../test/css/main.css" media="screen"/>
     <!-- Bootstrap -->
     <link href="../test/css/bootstrap.css" rel="stylesheet">

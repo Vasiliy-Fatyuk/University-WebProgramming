@@ -432,7 +432,7 @@
                                        aria-expanded="false">Завдання<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li>
-                                            <a href="Apiko/task_apiko_php/task_1/task_1_1.php" class="a-btn a-block">Завдання
+                                            <a href="Apiko/task_apiko_php/task_1/task_1.php" class="a-btn a-block">Завдання
                                                 1</a>
                                         </li>
                                         <li>
@@ -468,7 +468,7 @@
                                        aria-expanded="false">Завдання<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li>
-                                            <a href="Apiko/task_apiko_php/task_2/task_2_1.php"
+                                            <a href="Apiko/task_apiko_php/task_2/task_2.php"
                                                class="a-btn a-block none">Завдання 1</a>
                                         </li>
                                         <li>
@@ -504,7 +504,7 @@
                                        aria-expanded="false">Завдання<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li>
-                                            <a href="Apiko/task_apiko_php/task_3/task_3_1.php"
+                                            <a href="Apiko/task_apiko_php/task_3/task_3.php"
                                                class="a-btn a-block none">Завдання 1</a>
                                         </li>
                                         <li>

@@ -16,7 +16,7 @@
     </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Test task</title>
+    <title>Task_1</title>
     <link rel="stylesheet" type="text/css" href="../test/css/main.css" media="screen"/>
     <!-- Bootstrap -->
     <link href="../test/css/bootstrap.css" rel="stylesheet">
@@ -45,7 +45,7 @@
     <script src="./js/formHandler.js"></script>
     <script src="../../../../js/lazysizes.min.js" defer></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="../../task_apiko_js/task_1/task_1_1.js"></script>
+    <script src="../../task_apiko_js/task_1/task_1.js"></script>
     <title>Task_5_3</title>
 
     <!-- Google Analytics -->

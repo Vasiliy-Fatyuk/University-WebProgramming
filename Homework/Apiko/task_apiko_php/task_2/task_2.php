@@ -16,7 +16,7 @@
     </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Test task</title>
+    <title>Task_2</title>
     <link rel="stylesheet" type="text/css" href="../test/css/main.css" media="screen"/>
     <!-- Bootstrap -->
     <link href="../test/css/bootstrap.css" rel="stylesheet">
@@ -44,8 +44,8 @@
     <script src="./js/jqBootstrapValidation.js"></script>
     <script src="./js/formHandler.js"></script>
     <script src="../../../../js/lazysizes.min.js" defer></script>
-    <link rel="stylesheet" href="../../task_apiko_css/task_2/task_2_1.css">
-    <script src="../../task_apiko_js/task_2/task_2_1.js"></script>
+    <link rel="stylesheet" href="../../task_apiko_css/task_2/task_2.css">
+    <script src="../../task_apiko_js/task_2/task_2.js"></script>
     <title>Task_5_3</title>
 
     <!-- Google Analytics -->
@@ -127,7 +127,7 @@
                         </ul>
                     </div>
                 </h4>
-                <script src="../../task_apiko_js/task_2/task_2_1.js"></script>
+                <script src="../../task_apiko_js/task_2/task_2.js"></script>
 
 
                 <!-- bloc-38 END -->
