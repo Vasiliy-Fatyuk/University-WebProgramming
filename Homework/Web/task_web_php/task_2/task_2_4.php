@@ -46,8 +46,8 @@
         <div class="container bloc-sm">
             <nav class="navbar nav-center row">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="../../../../index.html"><img src="../../../../img/icons8-apple-24.png"
-                                                                               alt="logo"/>Web</a>
+                    <a class="navbar-brand" href="../../../../index.php"><img src="../../../../img/icons8-apple-24.png"
+                                                                              alt="logo"/>Web</a>
                     <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-1">
                         <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -60,7 +60,7 @@
                             <a href="../../../labolatorni.php">Лабораторні</a>
                         </li>
                         <li>
-                            <a href="../../../../index.html">Головна</a>
+                            <a href="../../../../index.php">Головна</a>
                         </li>
                     </ul>
                 </div>
@@ -173,25 +173,25 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="text-center">
-                        <a class="social-lg" href="../../../../index.html"><span
+                        <a class="social-lg" href="../../../../index.php"><span
                                     class="fa fa-twitter icon-lg"></span></a>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="text-center">
-                        <a class="social-lg" href="../../../../index.html"><span
+                        <a class="social-lg" href="../../../../index.php"><span
                                     class="fa fa-facebook icon-lg"></span></a>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="text-center">
-                        <a class="social-lg" href="../../../../index.html"><span
+                        <a class="social-lg" href="../../../../index.php"><span
                                     class="fa fa-dribbble icon-lg"></span></a>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="text-center">
-                        <a class="social-lg" href="../../../../index.html"><span class="fa fa-instagram icon-lg"></span></a>
+                        <a class="social-lg" href="../../../../index.php"><span class="fa fa-instagram icon-lg"></span></a>
                     </div>
                 </div>
             </div>

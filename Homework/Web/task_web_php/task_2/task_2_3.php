@@ -45,7 +45,7 @@
         <div class="container bloc-sm">
             <nav class="navbar nav-center row">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="../../../../index.html"><img src="../../../../img/icons8-apple-24.png" alt="logo" />Web</a>
+                    <a class="navbar-brand" href="../../../../index.php"><img src="../../../../img/icons8-apple-24.png" alt="logo" />Web</a>
                     <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
                         <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
@@ -56,7 +56,7 @@
                             <a href="../../../labolatorni.php">Лабораторні</a>
                         </li>
                         <li>
-                            <a href="../../../../index.html">Головна</a>
+                            <a href="../../../../index.php">Головна</a>
                         </li>
                     </ul>
                 </div>
