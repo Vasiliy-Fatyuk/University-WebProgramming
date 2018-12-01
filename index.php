@@ -63,6 +63,9 @@
                         <li>
                             <a href="Homework/labolatorni.php">Лабораторні</a>
                         </li>
+                        <li>
+                            <a href="Explorer/index.php">Explorer</a>
+                        </li>
                     </ul>
                 </div>
             </nav>

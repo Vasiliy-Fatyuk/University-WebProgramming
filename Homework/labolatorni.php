@@ -64,6 +64,9 @@
                         <li>
                             <a href="labolatorni.php">Лабораторні</a>
                         </li>
+                        <li>
+                            <a href="../Explorer/index.php">Explorer</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -156,7 +159,7 @@
                                                 6</a>
                                         </li>
                                         <li>
-                                            <a href="Document/Laba_1.docx" class="a-btn a-block"><img
+                                            <a href="../Explorer/data/User/admin/home/document/Laba_1.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
                                     </ul>
@@ -208,7 +211,7 @@
                                                 5</a>
                                         </li>
                                         <li>
-                                            <a href="Document/Laba_2.docx" class="a-btn a-block"><img
+                                            <a href="../Explorer/data/User/admin/home/document/Laba_2.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
                                     </ul>
@@ -264,7 +267,7 @@
                                                 6</a>
                                         </li>
                                         <li>
-                                            <a href="Document/Laba_3.docx" class="a-btn a-block"><img
+                                            <a href="../Explorer/data/User/admin/home/document/Laba_3.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
 
@@ -297,11 +300,11 @@
                                        aria-expanded="false">Завдання<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li>
-                                            <a href="Document/Laba_4.docx" class="a-btn a-block"><img
+                                            <a href="../Explorer/data/User/admin/home/document/Laba_4.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
                                         <li>
-                                            <a href="Document/ERR.mwb" class="a-btn a-block"><img
+                                            <a href="../Explorer/data/User/admin/home/document/ERR.mwb" class="a-btn a-block"><img
                                                         src="../img/download_db.png" alt="Download">Download .mwb</a>
                                         </li>
                                     </ul>
@@ -345,7 +348,7 @@
                                                 3</a>
                                         </li>
                                         <li>
-                                            <a href="Document/Laba_5.docx" class="a-btn a-block"><img
+                                            <a href="../Explorer/data/User/admin/home/document/Laba_5.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
                                     </ul>

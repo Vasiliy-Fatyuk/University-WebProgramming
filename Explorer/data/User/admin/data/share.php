@@ -1,0 +1,60 @@
+<?php exit;?>{
+    "aVANdeYI": {
+        "mtime": 1543695199,
+        "sid": "aVANdeYI",
+        "type": "file",
+        "path": "\/Applications\/MAMP\/htdocs\/KodExplorer-master\/data\/User\/admin\/home\/desktop\/OfficeConverter.oexe",
+        "name": "OfficeConverter.oexe",
+        "showName": "OfficeConverter.oexe",
+        "timeTo": "",
+        "sharePassword": "",
+        "codeRead": "",
+        "canUpload": "",
+        "notDownload": "",
+        "numDownload": 1,
+        "numView": 1
+    },
+    "ZF9hHDkz": {
+        "mtime": 1543700933,
+        "sid": "ZF9hHDkz",
+        "type": "folder",
+        "path": "\/Applications\/MAMP\/htdocs\/University-WebProgramming\/Explorer\/data\/User\/admin\/home\/pictures\/",
+        "name": "pictures",
+        "showName": "pictures",
+        "timeTo": "",
+        "sharePassword": "fF20p",
+        "codeRead": "",
+        "canUpload": "",
+        "notDownload": ""
+    },
+    "ZunwUXDT": {
+        "mtime": 1543700962,
+        "sid": "ZunwUXDT",
+        "type": "file",
+        "path": "\/Applications\/MAMP\/htdocs\/University-WebProgramming\/Explorer\/data\/User\/admin\/home\/desktop\/OfficeConverter.oexe",
+        "name": "OfficeConverter.oexe(0)",
+        "showName": "OfficeConverter.oexe",
+        "timeTo": "",
+        "sharePassword": "yh1a4",
+        "codeRead": "",
+        "canUpload": "",
+        "notDownload": "",
+        "numDownload": 0,
+        "numView": 3
+    },
+    "aXhgkYtv": {
+        "mtime": 1543701653,
+        "sid": "aXhgkYtv",
+        "type": "file",
+        "path": "\/Applications\/MAMP\/htdocs\/University-WebProgramming\/Explorer\/data\/User\/admin\/home\/document\/Laba_1.docx",
+        "name": "Laba_1.docx",
+        "showName": "Laba_1.docx",
+        "timeTo": "",
+        "sharePassword": "",
+        "codeRead": "",
+        "canUpload": "",
+        "notDownload": "1",
+        "numDownload": 0,
+        "numView": 5
+    }
+}

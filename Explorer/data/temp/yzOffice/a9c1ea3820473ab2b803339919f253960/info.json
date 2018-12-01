@@ -1,0 +1,31 @@
+{
+    "currentStep": 1,
+    "success": 1,
+    "taskUuid": "95fdacca4f80049266709a5575af4cee",
+    "hideData": [],
+    "steps": [
+        {
+            "name": "upload",
+            "process": "uploadProcess",
+            "status": 2,
+            "result": {
+                "result": 0,
+                "data": "2bd94040-7113-45f0-904d-f0885b9667de\/Laba_1.docx",
+                "message": "转换成功"
+            }
+        },
+        {
+            "name": "convert",
+            "process": "convert",
+            "status": 2,
+            "result": {
+                "result": 0,
+                "data": [
+                    "http:\/\/dcs.yozosoft.com:8000\/2018\/12\/02\/MTgxMjAyMDUyNjI4ODcx.html"
+                ],
+                "message": "转换成功",
+                "type": 0
+            }
+        }
+    ]
+}
