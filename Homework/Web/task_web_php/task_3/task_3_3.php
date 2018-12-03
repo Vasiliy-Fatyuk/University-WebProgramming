@@ -24,9 +24,19 @@ class User
             else if (strlen($this->surname) == 0) array_push($errors, "Фамілію не введено");
             else if (strlen($this->age) == 0) array_push($errors, "Вік не введено");
             else if (strlen($this->email) == 0) array_push($errors, "Email не введено");
+            if (preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,5})$/i", $this->email)) {
+            }else{
+                array_push($errors, "Адрес введений некоректно");
+            }
+
             return $errors;
         }
     }
+
+
+
+
+
 
     public function renderInfoAboutUser()
     {
@@ -45,6 +55,8 @@ class User
     }
 
 }
+
+
 
 ?>
 
@@ -145,6 +157,7 @@ class User
                         ?>
 
 
+
                         <form action="task_3_3.php" method="post">
                             <input type="text" placeholder="Введіть ім'я" name="name"
                                    value="<?php echo $_POST['name']; ?>">
@@ -157,7 +170,6 @@ class User
                             <button type="submit">Готово</button>
                         </form>
                         <div class="result">
-
                             <?php if ($result_valid) $user->renderInfoAboutUser(); ?>
                         </div>
 
