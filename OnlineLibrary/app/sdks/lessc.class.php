@@ -1,42 +1,4 @@
 <?php
-
-/**
- * lessphp v0.4.0
- * http://leafo.net/lessphp
- *
- * LESS css compiler, adapted from http://lesscss.org
- *
- * Copyright 2012, Leaf Corcoran <leafot@gmail.com>
- * Licensed under MIT or GPLv3, see LICENSE
- */
-
-
-/**
- * The less compiler and parser.
- *
- * Converting LESS to CSS is a three stage process. The incoming file is parsed
- * by `lessc_parser` into a syntax tree, then it is compiled into another tree
- * representing the CSS structure by `lessc`. The CSS tree is fed into a
- * formatter, like `lessc_formatter` which then outputs CSS as a string.
- *
- * During the first compile, all values are *reduced*, which means that their
- * types are brought to the lowest form before being dump as strings. This
- * handles math equations, variable dereferences, and the like.
- *
- * The `parse` function of `lessc` is the entry point.
- *
- * In summary:
- *
- * The `lessc` class creates an intstance of the parser, feeds it LESS code,
- * then transforms the resulting tree to a CSS tree. This class also holds the
- * evaluation context, such as all available mixins and variables at any given
- * time.
- *
- * The `lessc_parser` class is only concerned with parsing its input.
- *
- * The `lessc_formatter` takes a CSS tree, and dumps it to a formatted string,
- * handling things like indentation.
- */
 class lessc {
 	static public $VERSION = "v0.4.0";
 	static protected $TRUE = array("keyword", "true");
