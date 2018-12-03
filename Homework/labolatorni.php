@@ -65,7 +65,7 @@
                             <a href="labolatorni.php">Лабораторні</a>
                         </li>
                         <li>
-                            <a href="../Explorer/index.php">Explorer</a>
+                            <a href="../OnlineLibrary/index.php">OnlineLibrary</a>
                         </li>
                     </ul>
                 </div>
@@ -159,7 +159,7 @@
                                                 6</a>
                                         </li>
                                         <li>
-                                            <a href="../Explorer/data/User/admin/home/document/Laba_1.docx" class="a-btn a-block"><img
+                                            <a href="../OnlineLibrary/data/User/admin/home/document/Laba_1.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
                                     </ul>
@@ -211,7 +211,7 @@
                                                 5</a>
                                         </li>
                                         <li>
-                                            <a href="../Explorer/data/User/admin/home/document/Laba_2.docx" class="a-btn a-block"><img
+                                            <a href="../OnlineLibrary/data/User/admin/home/document/Laba_2.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
                                     </ul>
@@ -267,7 +267,7 @@
                                                 6</a>
                                         </li>
                                         <li>
-                                            <a href="../Explorer/data/User/admin/home/document/Laba_3.docx" class="a-btn a-block"><img
+                                            <a href="../OnlineLibrary/data/User/admin/home/document/Laba_3.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
 
@@ -300,11 +300,11 @@
                                        aria-expanded="false">Завдання<span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li>
-                                            <a href="../Explorer/data/User/admin/home/document/Laba_4.docx" class="a-btn a-block"><img
+                                            <a href="../OnlineLibrary/data/User/admin/home/document/Laba_4.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
                                         <li>
-                                            <a href="../Explorer/data/User/admin/home/document/ERR.mwb" class="a-btn a-block"><img
+                                            <a href="../OnlineLibrary/data/User/admin/home/document/ERR.mwb" class="a-btn a-block"><img
                                                         src="../img/download_db.png" alt="Download">Download .mwb</a>
                                         </li>
                                     </ul>
@@ -348,7 +348,7 @@
                                                 3</a>
                                         </li>
                                         <li>
-                                            <a href="../Explorer/data/User/admin/home/document/Laba_5.docx" class="a-btn a-block"><img
+                                            <a href="../OnlineLibrary/data/User/admin/home/document/Laba_5.docx" class="a-btn a-block"><img
                                                         src="../img/download.png" alt="Download">Download .doc</a>
                                         </li>
                                     </ul>

@@ -1,0 +1,1502 @@
+html,
+body {
+    overflow: hidden;
+
+}
+
+.loading-mask {
+    position: absolute;
+    background-color: whiteSmoke;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2000;
+}
+
+.loading-mask .brand {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+.loading-mask .loading-zone {
+    width: 100%;
+    max-width: 300px;
+    margin: 100px auto;
+}
+
+.loading-mask .loading-zone .progress {
+    height: 13px;
+}
+
+.loading-mask .loading-zone .text {
+    text-align: center;
+    margin: 5px auto;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/*	Bootstrap responsive style
+	/* -------------------------------------------------- */
+
+body {
+    padding: 0px
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/*	Header Style
+	/* -------------------------------------------------- */
+
+.navbar .brand {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 80%;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/*	Search & Highlight
+	/* -------------------------------------------------- */
+
+.highlight {
+    background-color: #FFFF88;
+}
+
+.highlight-selected {
+    background-color: darkorange;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/*	Word Style
+	/* -------------------------------------------------- */
+
+.word-body,
+.ppt-body {
+    background-color: #EBEBEB;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.word-body table {
+    width: auto !important;
+}
+.word-page.hideShadow{
+    box-shadow:none;
+    
+}
+.word-page {
+    position: relative;
+    overflow: hidden;
+    line-height: normal;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    background-color: #FFF;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -moz-box-shadow: 0 0 10px 5px #888;
+    -webkit-box-shadow: 0 0 10px 5px #888;
+    box-shadow: 0 0 10px 5px #888;
+    text-align: center;
+}
+
+.word-page .word-content {
+    background-color: #FFF;
+    max-width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 0px auto;
+}
+
+.word-page .word-content img,
+.word-page .word-content embed {
+    position: absolute;
+    left: 0px;
+    max-width: none;
+}
+
+.word-page canvas {
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+}
+
+.word-page .drawTextArea {
+    position: absolute;
+    z-index: 1000;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.doc-page .doc-content p {
+    word-wrap: break-word;
+    word-break: normal;
+    margin: 0px;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/*	Table Style
+	/* -------------------------------------------------- */
+
+table {
+    border-collapse: collapse;
+    word-wrap: break-word;
+    margin: 0px auto;
+}
+
+table td {
+    text-align: center !important;
+}
+
+
+/*
+	table, tbody, tfoot, thead, tr, th, td {
+		border: 1px solid #dddddd !important;
+	}
+	*/
+
+
+/* -------------------------------------------------- */
+
+
+/*	Footer
+	/* -------------------------------------------------- */
+
+footer {
+    text-align: center;
+}
+
+
+/* -------------------------------------------------- */
+
+
+/*	Bottom paging progress
+	/* -------------------------------------------------- */
+
+.bottom-paging-progress {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px auto;
+    height: 3px;
+}
+
+.paging-bottom-all {
+    border-top: 1px solid #d8d8d8;
+    height: 20px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.paging-bottom-sub {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.container-fluid-content {
+    padding: 0px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 40px;
+}
+
+.docArea {
+    position: absolute;
+    padding-bottom: 40px;
+}
+
+
+/*color-select*/
+
+.m-popup {
+    position: fixed;
+    border-radius: 2px;
+    background-color: #fff;
+    z-index: 10000;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+
+.marker-tool {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.color-marker {
+    background-image: none;
+    border-radius: 4px;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #9e9e9e;
+    position: relative;
+}
+
+.color-marker:after {
+    content: "";
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    height: 2px;
+    margin-top: -2px;
+    display: block;
+    border: 4px solid transparent;
+    border-top-color: gray;
+}
+
+
+/*color-popup-div*/
+
+.m-popup.vb.shadow {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .5);
+}
+
+.m-popup .content,
+.m-popup .content-inner {
+    height: 100%;
+}
+
+.popup-arrow.top {
+    bottom: 100%;
+}
+
+.popup-arrow {
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+}
+
+.color-list li.selected {
+    border: 1px solid gray;
+}
+
+.popup-arrow.top.black:after {
+    border-bottom-color: rgba(0, 0, 0, .8);
+    top: 0;
+}
+
+.popup-arrow:after {
+    border: 10px solid transparent;
+    right: 100%;
+    width: 0;
+    height: 0;
+    content: " ";
+    display: block;
+}
+
+.color-list {
+    background-color: rgba(0, 0, 0, .8);
+    padding-left: 5px;
+    margin: 0px;
+}
+
+.color-list li {
+    line-height: 40px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 6px 5px 6px 0;
+    border: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 0;
+}
+
+.color-list li:hover {
+    border: 1px solid #ffffff;
+}
+
+.color-list li.selected {
+    border: 1px solid gray;
+}
+
+
+/*line-width-selector*/
+
+.width-op {
+    width: 92px;
+    height: 22px;
+    border-radius: 3px;
+    background: #4c4c4c;
+    border: 1px solid #000;
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+    float: left;
+    margin: 8px 0px 0px 5px;
+}
+
+.width-op span {
+    width: 30px;
+    height: 21px;
+    float: left;
+    position: relative;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.width-op .middle {
+    margin-left: -4px;
+}
+
+.width-op .middle div {
+    width: 10px;
+    height: 10px;
+}
+
+.width-op .thin div {
+    width: 5px;
+    height: 5px;
+}
+
+.width-op .wide div {
+    width: 14px;
+    height: 14px;
+}
+
+.width-op div {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.width-op span.selected div {
+    background-color: #fff;
+}
+
+
+/*font-size-selector*/
+
+.font-op {
+    float: left;
+    margin: 10px 0px 0px 5px;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.font-op span {
+    display: inline-block;
+}
+
+.combo-box-root {
+    cursor: pointer;
+    display: inline-flex;
+    position: relative;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.combo-box-root .combo-caption {
+    margin-right: 20px;
+}
+
+.combo-box-root .combo-arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.font-op span .combo-arrow:after {
+    margin-top: -6px;
+    border-top-color: gray;
+}
+
+.combo-box-root .combo-arrow:after {
+    content: "";
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    height: 2px;
+    margin-top: -2px;
+    display: block;
+    border: 4px solid transparent;
+    border-top-color: #000;
+}
+
+
+/*edit-delete-text-button*/
+
+.saveText {
+    position: relative;
+    top: -40px;
+    line-height: 24px;
+    height: 24px;
+    width: 50px;
+}
+
+.saveText input {
+    width: 50px;
+    height: 24px;
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+.arrow:after {
+    border: 10px solid transparent;
+    right: 100%;
+    width: 0;
+    height: 0;
+    content: " ";
+    display: block;
+}
+
+.saveText .arrow:after {
+    border-top-color: rgba(0, 0, 0, .8);
+    top: 0;
+}
+
+.saveText .arrow {
+    top: 100%;
+    left: 15px;
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+}
+
+
+/*save-img-buttom*/
+
+.deleteImageData {
+    position: absolute;
+    top: -45px;
+    line-height: 24px;
+    left: 0px;
+    height: 24px;
+    width: 50px;
+}
+
+.deleteImageData input {
+    width: 50px;
+    height: 24px;
+    background: #000000;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+.deleteImageData .arrow:after {
+    border: 10px solid transparent;
+    right: 100%;
+    width: 0;
+    height: 0;
+    content: " ";
+    display: block;
+}
+
+.deleteImageData .arrow:after {
+    border-top-color: #000000;
+    top: 0;
+}
+
+.deleteImageData .arrow {
+    top: 100%;
+    left: 15px;
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+}
+
+
+/*signatureText*/
+
+.signatureText {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.signatureText .textDrag .se-resize {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(drag.png)0 0 no-repeat red;
+    background-size: cover;
+    right: -10px;
+    bottom: -10px;
+    cursor: se-resize;
+    border-radius: 50%;
+    display:none;
+}
+
+.signatureText .text-rect {
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 2000;
+}
+
+.signatureText .textDrag {
+    left: -10px;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    position: absolute;
+    z-index: 2000;
+    border-radius: 5px;
+}
+
+.signatureText.active .textDrag,.signatureText.focus .textDrag {
+    border: 1px solid red;
+}
+.signatureText.active .textDrag .se-resize{
+    display:block
+}
+
+.signatureText .text-rect textarea {
+    box-shadow: none;
+    width: 120px;
+    height: 30px;
+    padding: 0px;
+    vertical-align: top;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    line-height: 30px;
+    font-size:18px;
+    overflow:hidden;
+    color:#000000;
+}
+
+.saveText_phone {
+    position: relative;
+    top: -45px;
+    line-height: 24px;
+    height: 24px;
+    width: 120px;
+    z-index:2000
+}
+
+.saveText_phone input {
+    width: 50px;
+    height: 24px;
+    background: #000000;
+    border: none;
+    color: #ffffff;
+}
+
+.saveText_phone .arrow {
+    top: 100%;
+    right: 35px;
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+}
+
+.saveText_phone .arrow:after {
+    border-top-color: #000000;
+    top: 0;
+}
+
+.saveText_phone:after {
+    border: 10px solid transparent;
+    border-top-color: transparent;
+    right: 100%;
+    width: 0;
+    height: 0;
+    content: " ";
+    display: block;
+}
+
+.saveText_phone .editText {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.saveText_phone .deleteText {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/*font-size-box*/
+
+.m-popup.vb,
+.m-popup.vt {
+    -o-box-shadow: 0 7px 35px rgba(0, 0, 0, .12);
+    -ms-box-shadow: 0 7px 35px rgba(0, 0, 0, .12);
+    box-shadow: 0 7px 35px rgba(0, 0, 0, .12);
+}
+
+.popup-arrow {
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+}
+
+.select-list {
+    margin: 0px;
+}
+
+.select-list.small-font {
+    font-size: 12px;
+}
+
+.m-menu.small-font li {
+    padding: 0 10px 0 16px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    position: relative;
+    border-left: 4px solid #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.select-list .icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.select-list.small-font li {
+    padding: 0 10px 0 5px;
+}
+
+.select-list li span.slt-li {
+    background-image: url(tick.png);
+    background-repeat: no-repeat;
+}
+
+
+/*text-area*/
+
+.op-frame .op-ctl-p {
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+}
+
+.op-frame .lt-p {
+    left: 0;
+    top: 0;
+    cursor: nw-resize;
+}
+
+.op-frame .mt-p {
+    left: 50%;
+    top: 0;
+    cursor: n-resize;
+}
+
+.op-frame .rt-p {
+    left: 100%;
+    top: 0;
+    cursor: ne-resize;
+}
+
+.op-frame .rb-p {
+    left: 100%;
+    top: 100%;
+    cursor: se-resize;
+}
+
+.op-frame .mb-p {
+    left: 50%;
+    top: 100%;
+    cursor: s-resize;
+}
+
+.op-frame .lb-p {
+    left: 0;
+    top: 100%;
+    cursor: sw-resize;
+}
+
+.op-frame .lm-p {
+    left: 0;
+    top: 50%;
+    cursor: w-resize;
+}
+
+.op-frame .rm-p {
+    left: 100%;
+    top: 50%;
+    cursor: e-resize;
+}
+
+.op-frame,
+.op-frame .op-ctl-p {
+    z-index: 2000;
+    position: absolute;
+}
+
+.op-frame .op-ctl-p.isPhone {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: url(drag.png)0 0 no-repeat red;
+}
+
+.op-frame.active {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    z-index: 20000;
+}
+
+.op-frame.fixed {
+    border: none
+}
+
+.op-frame.fixed .op-inter {
+    z-index: -1000;
+    cursor: none;
+}
+
+.op-frame.fixed textarea {
+    border: none
+}
+
+.op-frame .op-inter {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    cursor: move;
+    z-index: 2000
+}
+
+.op-frame .op-inter.isPhone {
+    left: -15px;
+    top: -15px;
+    right: -15px;
+    bottom: -15px;
+}
+
+.op-frame .op-text {
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    border: none;
+    position: absolute;
+    z-index: 2000;
+    border: 1px dashed red;
+}
+
+.op-frame textarea {
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    vertical-align: top;
+    background-color: transparent;
+    resize: none;
+    padding: 5px;
+    border: none;
+    line-height: 1
+}
+
+
+/* -------------------------------------------------- */
+
+
+/*	Mobile css
+	/* -------------------------------------------------- */
+
+@media (max-width: 743px) {
+    .word-page .word-content.hideShadow{
+        box-shadow:none !important
+    }
+    .word-page .word-content {
+        max-width: 100%;
+        line-height: normal;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        background-color: #FFF;
+        -moz-border-radius: 1px;
+        border-radius: 1px;
+        -moz-box-shadow: 0 0 5px 2px #888;
+        -webkit-box-shadow: 0 0 5px 2px #888;
+        box-shadow: 0 0 5px 2px #888;
+    }
+    
+    .word-body,
+    .ppt-body,
+    .pdf-body {
+        background-color: #FFF;
+    }
+    .pdf-body {
+        padding-top: 50px;
+    }
+    .pdf-body .container-fluid-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+/**修改的bootstrap框架里的 css**/
+
+.navbar-inverse .brand {
+    color: #999;
+}
+
+.navbar-inverse .brand,
+.navbar-inverse .nav>li>a {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar .brand {
+    width: 200px;
+    display: block;
+    float: left;
+    padding: 10px 20px 10px;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+a {
+    color: #08c;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    user agent stylesheeta:-webkit-any-link {
+        color: -webkit-link;
+        text-decoration: underline;
+        cursor: auto;
+    }
+}
+
+#btnPrint,
+#btnSignature,
+#btnReadModel,
+#btnSave,
+#download,
+#btnPrint {
+    float: right;
+    margin-right: 0px;
+    padding: 8px;
+}
+
+.btnReadModel,
+.btnSave {
+    display: none
+}
+
+.changePage,
+.drawTool {
+    color: #fff;
+    position: absolute;
+    height: 40px;
+    left: 40%;
+}
+
+.drawTool {
+    color: #fff;
+    position: absolute;
+    height: 40px;
+    left: 33%;
+}
+
+.drawTool a {
+    padding: 10px;
+    float: left;
+}
+
+.drawTool a.active {
+    background: #007ee5;
+}
+
+.drawTool .hideToolbarButton {
+    display: none
+}
+
+.btnWithdraw img,
+.btnRecover img {
+    opacity: 1
+}
+
+.btnWithdraw img.disable,
+.btnRecover img.disable,
+.btnSave img.disable {
+    opacity: 0.1;
+    background: #1b1b1b;
+}
+
+.pageUp,
+.pageDown {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px
+}
+
+.pageUp:hover,
+.pageDown:hover {
+    opacity: 0.5;
+}
+
+.pageUp {
+    background: url(toolbarButton-pageUp.png) no-repeat;
+    background-size: cover
+}
+
+.pageDown {
+    background: url(toolbarButton-pageDown.png) no-repeat;
+    background-size: cover
+}
+
+.changePage .activePage {
+    width: 40px;
+    height: 10px;
+    line-height: 10px;
+    margin: 10px;
+    text-align: right;
+}
+
+
+/*secondToolbar*/
+
+.hideToolbar {
+    z-index: 700000002;
+    display: block;
+    width: 100px;
+    top: 40px;
+    left: 8px;
+    position: absolute;
+    background: grey;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.secondaryToolbarButton {
+    position: relative;
+    border-radius: 3px;
+    padding: 10px;
+    height: auto;
+    min-height: 25px;
+    width: auto;
+    min-width: 100%;
+    white-space: normal;
+    border: none;
+    background: none;
+    color: white
+}
+
+.secondaryToolbarButton {
+    padding-left: 4px;
+    text-align: left;
+}
+
+.secondaryToolbarButton.active {
+    background: #007ee5
+}
+
+.hideToolbar:before {
+    left: 3px;
+    margin-right: -9px;
+}
+
+.hideToolbar:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.hideToolbar:before {
+    border-bottom-color: grey;
+    border-width: 9px;
+}
+
+
+/*phone_signature*/
+#signatureTool_phone{
+    width:100%;
+    text-align:center;
+    height:60px;
+    line-height:60px;
+    position:fixed;
+    bottom:0px;
+    display:none;
+    background:#ffffff;
+}
+.drawTool_phone {
+    height: 40px;
+    margin: 0px 25px 0px 25px;
+}
+
+.drawTool_phone li {
+    display: inline-block;
+    list-style: none;
+    width: 25%;
+    height: 100%;
+    float: left;
+    line-height: 40px;
+}
+.drawTool_phone li div{
+    line-height:20px;
+    color:#838383
+}
+.drawTool_phone li a{
+    text-decoration: none
+}
+.drawTool_phone li.saveImgButton {
+    opacity: 0.5
+}
+
+.drawTool_phone li.saveImgButton.active {
+    opacity: 1;
+}
+
+#signature_hint {
+    width: 100%;
+    height: 60px;
+    z-index: 2000;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 60px;
+    display: none;
+}
+
+#signature_hint span {
+    margin-left: 50px;
+    color: #ffffff
+}
+
+.cancelSignature_phone {
+    float: right;
+    margin-right: 50px
+}
+
+.canvasArea_phone {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #ffffff;
+    z-index: 99999;
+    display: none
+}
+
+.canvasArea_phone .canvas_hint {
+    position: absolute;
+    width: 100%;
+    font-size: 40px;
+    color: #666;
+    text-align: center;
+    top: 50%
+}
+
+.canvasArea_phone .canvas_top {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 150px;
+    z-index: 999;
+}
+
+.canvasArea_phone .canvas_top a {
+    float: right;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.canvasArea_phone .canvas_bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    height: 40px;
+    line-height: 40px;
+    z-index: 999;
+}
+
+.canvasArea_phone .canvas_bottom .color_select {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.canvasArea_phone .canvas_bottom .color_select.active {
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.8);
+}
+
+.canvasArea_phone .canvas_bottom .open_lineWidth {
+    display:inline-block;
+    margin-left: 20px
+}
+.canvasArea_phone .canvas_bottom .open_lineWidth:hover {
+    text-decoration: none
+}
+.canvasArea_phone .arrow_phone {
+    top: 30px;
+    left: 22px;
+    width: 16px;
+    height: 16px;
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+    font-style: normal;
+    position: absolute;
+    pointer-events: none;
+    transform: rotate(45deg);
+    background: #ffffff;
+    box-shadow: 4px 4px 4px rgba(82, 74, 74, 0.8)
+}
+
+.canvasArea_phone .canvas_top a.right {
+    display: none;
+}
+
+.canvasArea_phone .lineWidth_select {
+    position: absolute;
+    left: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 4px rgba(82, 74, 74, 0.8);
+    bottom: 70px;
+    width: 270px;
+    height: 40px;
+    background: #ffffff;
+    line-height: 40px;
+    z-index: 999;
+    display: none;
+}
+
+.canvasArea_phone #size_span {
+    margin-top: 7px;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    float: left;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.canvasArea_phone #size_bar {
+    width: 200px;
+    height: 30px;
+    background-color: #999;
+    float: left;
+    margin: 5px;
+    position: relative;
+    background:url(dragStick.png)
+}
+
+.canvasArea_phone #size_thumb {
+    padding: 0px;
+    background-color: #ffffff;
+    width: 24px;
+    border-radius: 12px;
+    height: 24px;
+    margin: 0px;
+    margin-top: 4px;
+    position: absolute;
+    left: 0px;
+    box-shadow: 0px 0px 4px 4px rgba(82, 74, 74, 0.8);
+}
+.canvasArea_phone #size_thumb span{
+    width:4px;
+    height:4px;
+    background:black;
+    display:block;
+    border-radius: 2px;
+    position:relative;
+    top:10px;
+    left:10px
+}
+
+
+/*signatureImg*/
+
+.signatureImg {
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    height: 28;
+    
+}
+
+.signatureImg.active .signatureBorder{
+    border: 1px solid red
+}
+
+.signatureImg img {
+    position: absolute;
+    top: 0px;
+    left: 0px
+}
+.signatureImg .signatureBorder{
+    position: absolute;
+    top:-10px;
+    bottom:-10px;
+    right:-10px;
+    left:-10px;
+}
+.signatureImg .se-resize {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(drag.png)0 0 no-repeat red;
+    background-size: cover;
+    right: -20px;
+    bottom: -20px;
+    cursor: se-resize;
+    border-radius: 10px;
+}
+
+
+/*loading*/
+
+#loading {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100000;
+    margin-top: 0px;
+    top: 0px;
+    display: none;
+}
+
+#loading-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+    margin-left: -75px;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.object {
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    position: absolute;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-animation: animate 0.8s infinite;
+    animation: animate 0.8s infinite;
+}
+
+#object_one {
+    top: 19px;
+    left: 19px;
+}
+
+#object_two {
+    top: 0px;
+    left: 65px;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+#object_three {
+    top: 19px;
+    left: 111px;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+#object_four {
+    top: 65px;
+    left: 130px;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+#object_five {
+    top: 111px;
+    left: 111px;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+#object_six {
+    top: 130px;
+    left: 65px;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+#object_seven {
+    top: 111px;
+    left: 19px;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+#object_eight {
+    top: 65px;
+    left: 0px;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+@-webkit-keyframes animate {
+    25% {
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+    75% {
+        -ms-transform: scale(0);
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+}
+
+@keyframes animate {
+    50% {
+        -ms-transform: scale(1.5, 1.5);
+        -webkit-transform: scale(1.5, 1.5);
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        -ms-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+
+@media (max-width: 980px) {
+    /* Enable use of floated navbar text */
+    .navbar-text.pull-right {
+        float: none;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container-fluid {
+        padding: 0px
+    }
+}
+
+@media (max-width:560px) {
+    .width-op {
+        display: none !important;
+    }
+    .drawTool a.drawToolType {
+        display: none
+    }
+    .drawTool a.hideToolbarButton {
+        display: inline-block
+    }
+    ;
+}
+
+@media (max-width: 960px) {
+    .drawTool {
+        left: 0px
+    }
+}
+
+@media (max-width: 770px) {
+    .changePage {
+        left: 0px
+    }
+    .navbar .brand {
+        display: none !important
+    }
+}
+
+@page {
+    size: auto;
+    /* auto is the initial value */
+    margin: 0mm;
+    /* this affects the margin in the printer settings */
+}

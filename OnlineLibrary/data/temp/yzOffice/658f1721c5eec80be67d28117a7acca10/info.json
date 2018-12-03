@@ -1,0 +1,20 @@
+{
+    "currentStep": 1,
+    "success": 0,
+    "taskUuid": "11d6c5de7a34829b42930ff9ab39f4c3",
+    "hideData": [],
+    "steps": [
+        {
+            "name": "upload",
+            "process": "uploadProcess",
+            "status": 2,
+            "result": "API call to http:\/\/dcs.yozosoft.com\/testUpload failed;Failed to connect to dcs.yozosoft.com port 80: Operation timed out"
+        },
+        {
+            "name": "convert",
+            "process": "convert",
+            "status": 0,
+            "result": ""
+        }
+    ]
+}
